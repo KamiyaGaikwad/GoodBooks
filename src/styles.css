@@ -1,0 +1,32 @@
+.App {
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+}
+
+button {
+  border-radius: 0.5rem;
+  padding: 0.6rem;
+  margin: 0.8rem;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.bookrate1 {
+  font-size: smaller;
+  margin-bottom: 0.1rem;
+}
+
+.bookrate {
+  font-size: larger;
+  margin-bottom: 0.5rem;
+}
+
+li {
+  list-style-type: none;
+  border: 1px solid #d1d5db;
+  padding: 1rem;
+  width: 70%;
+  margin: 1rem 0rem;
+  border-radius: 0.5rem;
+}
