@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 .App {
   max-width: 600px;
   margin: auto;
   padding: 2rem;
+  font-family: "Poppins", sans-serif;
 }
 
 button {
@@ -9,7 +12,9 @@ button {
   padding: 0.6rem;
   margin: 0.8rem;
   cursor: pointer;
-  border: 1px solid black;
+  border: 1px solid #82b1ff;
+  background-color: #0d47a1;
+  color: white;
 }
 
 .bookrate1 {
@@ -20,6 +25,7 @@ button {
 .bookrate {
   font-size: larger;
   margin-bottom: 0.5rem;
+  font-weight: bold;
 }
 
 li {
@@ -29,4 +35,5 @@ li {
   width: 70%;
   margin: 1rem 0rem;
   border-radius: 0.5rem;
+  background-color: #64b5f6;
 }
